@@ -22,13 +22,13 @@
             Contains a library manager that automatically pulls down your dependencies
         </li>
         <li>
-            Has a powerful CLI, see <a href="http://platformio.org/get-started/cli">http://platformio.org/get-started/cli</a>
+            Has a powerful CLI, see <a href="http://platformio.org/get-started/cli" target="_blank">http://platformio.org/get-started/cli</a>
         </li>
         <li>
-            Has an nice IDE based on <a href="https://atom.io/">Atom</a>, an open source and easily extendable text editor, see <a href="http://platformio.org/get-started/ide">http://platformio.org/get-started/ide</a>
+            Has an nice IDE based on <a href="https://atom.io/" target="_blank">Atom</a>, an open source and easily extendable text editor, see <a href="http://platformio.org/get-started/ide" target="_blank">http://platformio.org/get-started/ide</a>
         </li>
     </ul>
-    Plus many more. Have a look at it here: <a href="http://platformio.org/">PlatformIO</a> 
+    Plus many more. Have a look at it here: <a href="http://platformio.org/" target="_blank">PlatformIO</a> 
 </p>
 
 <h3>
@@ -36,10 +36,10 @@
 </h3>
 <ul>
     <li>
-        Install <a href="http://docs.platformio.org/en/stable/ide/atom.html#installation">PlatformIO</a>
+        Install <a href="http://docs.platformio.org/en/stable/ide/atom.html#installation" target="_blank">PlatformIO</a>
     </li>
     <li>
-        Install <a href="https://www.wemos.cc/product/d1-mini.html">Wemos D1 mini</a> drivers if needed (only Mac & Windows). Note that older versions of the driver will cause a kernel panic on Mac. Drivers can be found <a href="https://www.wemos.cc/downloads">here</a> and <a href="https://blog.sengotta.net/signed-mac-os-driver-for-winchiphead-ch340-serial-bridge/">here</a>.
+        Install <a href="https://www.wemos.cc/product/d1-mini.html" target="_blank">Wemos D1 mini</a> drivers if needed (only Mac & Windows). Note that older versions of the driver will cause a kernel panic on Mac. Drivers can be found <a href="https://www.wemos.cc/downloads" target="_blank">here</a> and <a href="https://blog.sengotta.net/signed-mac-os-driver-for-winchiphead-ch340-serial-bridge/" target="_blank">here</a>.
     </li>
 </ul>
 
@@ -48,7 +48,7 @@
 </h3>
 
 <p>
-    We have 2 different boards to play around with; the classic <a href="https://www.arduino.cc/">Arduino</a> as well as the <a href="https://www.wemos.cc/product/d1-mini.html">Wemos D1 mini</a>, a mini WiFi board based on ESP8266.
+    We have 2 different boards to play around with; the classic <a href="https://www.arduino.cc/" target="_blank">Arduino</a> as well as the <a href="https://www.wemos.cc/product/d1-mini.html" target="_blank">Wemos D1 mini</a>, a mini WiFi board based on ESP8266.
 </p>
 
 <h4>
@@ -92,13 +92,18 @@
 </p>
 
 <p>
+    The Particle Photon is based on an ARM Cortex M3 from ST (STM32F205RGY6). Fortunately, there is already support in PlatformIO for a dev board based on a similar MCU, the ST NUCLEO-F207ZG (STM32F207ZG). Hence, we should be able to use the same PlatformIO platform, and add some framework(s) and board config files.
+</p>
+
+<p>
     Some links:
     <ul>
-        <li>
-            <a href="https://github.com/platformio/platformio/issues/445">https://github.com/platformio/platformio/issues/445</a>
-        </li>
-        <li>
-            <a href="https://docs.particle.io/guide/getting-started/intro/photon/">https://docs.particle.io/guide/getting-started/intro/photon/</a>
+        <li><a href="https://docs.particle.io/datasheets/photon-datasheet/" target="_blank">Photon datasheet</a></li>
+        <li><a href="https://developer.mbed.org/platforms/ST-Nucleo-F207ZG/" target="_blank">Nucleo F207ZG</a></li>
+        <li><a href="https://github.com/spark/firmware" target="_blank">Photon firmware</a></li>
+        <li><a href="http://docs.platformio.org/en/stable/platforms/creating_board.html" target="_blank">Add custom board to PlatformIO</a></li>
+        <li><a href="https://community.platformio.org/t/adding-a-new-framework-to-platformio/297" target="_blank">Add new framework to PlatformIO</a></li>
+    </ul>
 </p>
 
 </html>
